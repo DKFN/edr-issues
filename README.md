@@ -29,6 +29,8 @@ Documentation is now moving towards being mostly english
 - CDN configuration changed to reduce RPS to backend
 - Backend now runs alpine to reduce node first invocation time
 - Reduced backend memory per node from 1GB to 512Mb
+- SimRail server crash will now serve stale cache data
+- :motorcycle: > 30.000 request server on the first 6hrs of the test without issues, thanks all !
 
 -------
 

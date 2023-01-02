@@ -1,9 +1,18 @@
 # edr-issues
 
+This is the place where you will find known bugs and planned features for the [EDR](https://edr.deadlykungfu.ninja/)
+
 Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implementées dans l'[EDR](https://edr.deadlykungfu.ninja/)
 
 # Changelog
 ### 0.4
+
+##### :czech_republic: :czech_republic: Welcome Czech Republic friends :partying_face: :czech_republic: :czech_republic:
+
+_CZ1_ server is now available on the server list.
+Documentation is now moving towards being mostly english
+
+
 #### Features
 - More precise detection a train passing the station (thanks IWhite!) #18
 - Nearest station of train displayed (thanks IWhite!) #18
@@ -15,6 +24,8 @@ Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implem
 - Filter jumpy behavior when changing options #13
 - On-Line trains are never refreshed #15
 - UI is less wierd (but still a bit, we are in closed alpha :grin: ) -no issue-
+
+-------
 
 ### 0.3
 - Fix [https://github.com/DKFN/edr-issues/issues/6](Mettre des couleurs de labels au train en fonction du type (FRET, HLP, PASSAGER)

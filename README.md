@@ -25,6 +25,11 @@ Documentation is now moving towards being mostly english
 - On-Line trains are never refreshed https://github.com/DKFN/edr-issues/issues/15
 - UI is less wierd (but still a bit, we are in closed alpha :grin: ) -no issue-
 
+#### Servers
+- CDN configuration changed to reduce RPS to backend
+- Backend now runs alpine to reduce node first invocation time
+- Reduced backend memory per node from 1GB to 512Mb
+
 -------
 
 ### 0.3

@@ -5,6 +5,31 @@ This is the place where you will find known bugs and planned features for the [E
 Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implementées dans l'[EDR](https://edr.deadlykungfu.ninja/)
 
 # Changelog
+
+### 0.5
+
+Actually two releases merged into one
+
+#### Features
+
+- Multiple posts trains are now merged in one row (Sosnowiec) https://github.com/DKFN/edr-issues/issues/10
+- Header is now sticky on the page ! https://github.com/DKFN/edr-issues/issues/29
+- Add station name [#37](https://github.com/DKFN/edr-issues/issues/37)
+- Better color palette for more accessibility https://github.com/DKFN/edr-issues/issues/21
+
+
+#### Fixes
+- Auto refresh does not filter Offline trains in Online mode https://github.com/DKFN/edr-issues/issues/30 & https://github.com/DKFN/edr-issues/issues/15
+- Departure time is not taken into account when calculating delay https://github.com/DKFN/edr-issues/issues/24
+- Fix icons for MPE/MOJ/ROJ type https://github.com/DKFN/edr-issues/issues/22
+- Unable to play at Gora https://github.com/DKFN/edr-issues/issues/35
+- Small memory leak https://github.com/DKFN/edr-issues/issues/32
+- Select screen background https://github.com/DKFN/edr-issues/issues/17
+
+#### Backend
+- NGINX reverse proxies add a layer of cache
+- CDN bypass for train queries because of some network problems (cached by NGINX)
+
 ### 0.4
 
 ##### :czech_republic: :czech_republic: Welcome Czech Republic friends :partying_face: :czech_republic: :czech_republic:

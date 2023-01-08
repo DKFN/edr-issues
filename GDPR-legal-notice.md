@@ -7,7 +7,7 @@
 
 Please understand that the EDR is not made centralized in order to make me money, in fact it cost me money but this is a way so everyone can enjoy the software.
 
-Now that thoose questions 
+Now that thoose pre requisites are understood 
 
 ## Project licence
 The project is licenced under GPL3, you can find a condensed version here: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)

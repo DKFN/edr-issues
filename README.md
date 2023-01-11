@@ -6,6 +6,35 @@ Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implem
 
 # Changelog
 
+### 0.7
+
+#### Features
+- Search multiple trains (separated by a comma , ) https://github.com/DKFN/edr-issues/issues/26
+- The steam avatar and player name is displayed. Steam was implemented on the backend. https://github.com/DKFN/edr-issues/issues/33
+- HU language is now available ! -no issue-
+- Some railway symbols that are not normalized across countries are now localized https://github.com/DKFN/edr-issues/issues/43
+- Server name is now displayed -no issue-
+
+#### Fixes
+
+- MASSIVE performance gain. The UI was becoming laggy. Thread code (web workers) was optimized, React optimizations were implemented. RAM usage will be higher but CPU usage was divided by 7. -internal issue-
+- 24hrs format as the norm, as it seems to be the norm in the industry https://github.com/DKFN/edr-issues/issues/50
+- Correctly format hour https://github.com/DKFN/edr-issues/issues/44
+
+### 0.6
+
+#### Features
+
+- Long calculations are offloaded in a background thread using WebWorkers -internal issue-
+- Server timezone is now taken into account. All game servers are now open ! https://github.com/DKFN/edr-issues/issues/39 
+- Station name is now displayed https://github.com/DKFN/edr-issues/issues/37
+- Posts images are now optimized https://github.com/DKFN/edr-issues/issues/36
+
+#### Fixes
+- Some clients have a slower refresh rate of 1mn instead of 5-10s https://github.com/DKFN/edr-issues/issues/31
+- Servers are ordered depending on locale choices https://github.com/DKFN/edr-issues/issues/28
+
+
 ### 0.5
 
 Actually two releases merged into one

@@ -6,6 +6,42 @@ Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implem
 
 # Changelog
 
+### 0.9
+#### Features
+- Embed simrail map in EDR https://github.com/DKFN/edr-issues/issues/72
+- Add a sound notification when the departure badge is showing https://github.com/DKFN/edr-issues/issues/71
+- Make "stop" column more readable https://github.com/DKFN/edr-issues/issues/45
+- Add frontend retries https://github.com/DKFN/edr-issues/issues/67
+- Centering problems on three columns https://github.com/DKFN/edr-issues/issues/65
+
+#### Fixes
+- Train passed algorithm based of pathfinding does not handle loops well https://github.com/DKFN/edr-issues/issues/79
+- Train picture inaccurate in some cases https://github.com/DKFN/edr-issues/issues/48
+- Remove google fonts for GDPR https://github.com/DKFN/edr-issues/issues/78
+- Sometimes the bell does not play https://github.com/DKFN/edr-issues/issues/77
+- Better display for player name https://github.com/DKFN/edr-issues/issues/64
+- Fix autosort of servers by language https://github.com/DKFN/edr-issues/issues/57
+- Finally decided to add unit tests about early/delay calculations, and they should no longer be bugged at some hours ! (Waited waaaay too long for that 😅)
+
+
+### 0.8
+#### Features
+- Proper pathfinding algorithm (train has passed station, ETA calculation) ! https://github.com/DKFN/edr-issues/issues/56
+- Prepare new stations for game release
+- Add a notification when a train is in station and it is the time of departure of the train https://github.com/DKFN/edr-issues/issues/40
+- Replace close button-link with more meaningful action name https://github.com/DKFN/edr-issues/issues/52
+- https://github.com/DKFN/edr-issues/issues/52
+
+#### Fixes
+- Lazy shows most trains as 'moving away' https://github.com/DKFN/edr-issues/issues/71
+- Będzin never shows as the current station for a train https://github.com/DKFN/edr-issues/issues/49
+- Train picture inaccurate in some cases https://github.com/DKFN/edr-issues/issues/48
+- Add 24h time https://github.com/DKFN/edr-issues/issues/50
+- Correctly format displayed hour https://github.com/DKFN/edr-issues/issues/44
+- going early late - changing + and - signs https://github.com/DKFN/edr-issues/issues/43
+- Responsive issue on server select home screen https://github.com/DKFN/edr-issues/issues/55
+- Margin problem in the choice of the language https://github.com/DKFN/edr-issues/issues/55
+
 ### 0.7
 
 #### Features

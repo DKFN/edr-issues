@@ -4,6 +4,10 @@ This is the place where you will find known bugs and planned features for the [E
 
 Ici sont repertoriés tous les bugs et tous les suggestions qui vont etre implementées dans l'[EDR](https://edr.deadlykungfu.ninja/)
 
+# **Notice**
+All issues have been moved to [simrail/EDR](https://github.com/simrail/EDR/issues "simrail/EDR")
+This repository will no longer accept new issues, please create them in the new repository.
+
 # Changelog
 
 ### 0.9
